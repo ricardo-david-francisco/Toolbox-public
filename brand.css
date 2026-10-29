@@ -1,0 +1,85 @@
+@font-face{font-family:'Brand Mono';font-weight:400;font-style:normal;src:url(fonts/DejaVuSansMono.ttf) format('truetype')}
+  @font-face{font-family:'Brand Mono';font-weight:700;font-style:normal;src:url(fonts/DejaVuSansMono-Bold.ttf) format('truetype')}
+  @font-face{font-family:'Brand Mono';font-weight:400;font-style:italic;src:url(fonts/DejaVuSansMono-Oblique.ttf) format('truetype')}
+  @font-face{font-family:'Brand Mono';font-weight:700;font-style:italic;src:url(fonts/DejaVuSansMono-BoldOblique.ttf) format('truetype')}
+
+:root {
+  color-scheme: light dark;
+  --font-mono: 'Brand Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  --color-lime: #CDF546;
+  --color-violet: #A78BFA;
+  --color-violet-deep: #6D4DF5;
+  --color-black: #0A0C0E;
+  --color-arrow: #818C92;
+  --color-bronze: #B8834A;
+  --color-silver: #9AA5AD;
+  --color-gold: #D9B23A;
+  --color-grey: #9AA5AD;
+  --color-badge-neutral: #5A5A5A;
+  --bg: #FFFFFF;
+  --panel: #FFFFFF;
+  --raised: #F4F7F8;
+  --ink: #0F1416;
+  --sub: #55606A;
+  --rule: #E2E6E0;
+  --rule-strong: #CBD2CE;
+  --frame: #E2E6E0;
+  --accent: #6D4DF5;
+  --violet: #6D4DF5;
+  --lime: #CDF546;
+  --strong: #0A0C0E;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --font-mono: 'Brand Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    --color-lime: #CDF546;
+    --color-violet: #A78BFA;
+    --color-violet-deep: #6D4DF5;
+    --color-black: #0A0C0E;
+    --color-arrow: #818C92;
+    --color-bronze: #B8834A;
+    --color-silver: #9AA5AD;
+    --color-gold: #D9B23A;
+    --color-grey: #9AA5AD;
+    --color-badge-neutral: #5A5A5A;
+    --bg: #0A0C0E;
+    --panel: #0E1316;
+    --raised: #12171A;
+    --ink: #EDF1F2;
+    --sub: #8B969C;
+    --rule: #222A2F;
+    --rule-strong: #2C363C;
+    --frame: #232B30;
+    --accent: #CDF546;
+    --violet: #A78BFA;
+    --lime: #CDF546;
+    --strong: #F4F7F8;
+  }
+}
+
+:root[data-theme="dark"] {
+  --font-mono: 'Brand Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  --color-lime: #CDF546;
+  --color-violet: #A78BFA;
+  --color-violet-deep: #6D4DF5;
+  --color-black: #0A0C0E;
+  --color-arrow: #818C92;
+  --color-bronze: #B8834A;
+  --color-silver: #9AA5AD;
+  --color-gold: #D9B23A;
+  --color-grey: #9AA5AD;
+  --color-badge-neutral: #5A5A5A;
+  --bg: #0A0C0E;
+  --panel: #0E1316;
+  --raised: #12171A;
+  --ink: #EDF1F2;
+  --sub: #8B969C;
+  --rule: #222A2F;
+  --rule-strong: #2C363C;
+  --frame: #232B30;
+  --accent: #CDF546;
+  --violet: #A78BFA;
+  --lime: #CDF546;
+  --strong: #F4F7F8;
+}
